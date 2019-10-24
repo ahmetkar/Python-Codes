@@ -1,6 +1,6 @@
 # Author : ahmetkar0
 
-def bytetoNum():
+def bintoNum():
  x = int(input("Bir byte kodu girin")) 
  #xe girilen sayinin rakamlarini kisa yolla döngüye alıp y ye aktar.
  y = [int(y) for y in str(x)] 
@@ -22,7 +22,7 @@ def bytetoNum():
     
  print(toplam)
 
-def numtoByte():
+def numtoBin():
  x = int(input("Bir sayi giriniz"))
  dizi =[]
  while x!=0 and type(x)==int:
@@ -31,12 +31,12 @@ def numtoByte():
  for i in dizi:
   print(i)
   
-sec = input("Byte i integer a cevirmek icin 1 e Integeri byte a cevirmek icin 2 e basin")
+sec = input("Binary i integer a cevirmek icin 1 e Integeri binary e cevirmek icin 2 e basin")
 
 if(int(sec)==1):
-   bytetoNum()
+   bintoNum()
 elif(int(sec)==2):
-   numtoByte()
+   numtoBin()
 else:
    print("Yanlis girdi")
 
