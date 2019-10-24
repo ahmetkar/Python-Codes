@@ -1,7 +1,7 @@
 # Author : ahmetkar0
 
 def bintoNum():
- x = int(input("Bir byte kodu girin")) 
+ x = int(input("Bir binary kodu girin")) 
  #xe girilen sayinin rakamlarini kisa yolla döngüye alıp y ye aktar.
  y = [int(y) for y in str(x)] 
 
