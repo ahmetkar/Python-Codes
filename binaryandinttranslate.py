@@ -1,7 +1,12 @@
+# Author : ahmetkar0
+
 def bytetoNum():
  x = int(input("Bir byte kodu girin")) 
- y = [int(y) for y in str(x)]
+ #xe girilen sayinin rakamlarini kisa yolla döngüye alıp y ye aktar.
+ y = [int(y) for y in str(x)] 
 
+ #a sayac degişkeni k ussu surekli artirmak icin kullanilan sayac degişkeni
+ #toplam 2 nin ussunu alip surekli depoladiğimiz değişken
  a =0
  toplam =0
  k =0
