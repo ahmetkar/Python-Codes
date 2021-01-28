@@ -50,7 +50,7 @@ def Splitandwritebinary(bin_number):
 while(True):
   a = input("1-(hex-bin) 2-(bin-hex), choose one :")
   if(a=='q'):
-    print('bitti')
+    print('end of program')
     sleep(2)	
     break
   if(a=="2"):
